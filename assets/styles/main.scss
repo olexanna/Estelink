@@ -1,0 +1,30 @@
+
+html, body {
+	height: 100%;
+	width:100%;
+}
+
+body{
+	scroll-behavior: auto;
+	font-weight: inherit;
+}
+
+
+* {
+	border-spacing: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main{
+	position: relative;
+	max-width: 1440px;
+	height: 1556px;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+.hidden{
+	display: none;
+}
